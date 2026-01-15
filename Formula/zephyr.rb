@@ -1,23 +1,23 @@
 class Zephyr < Formula
   desc "CLI tool for Zephyr Scale API"
   homepage "https://github.com/bun913/zephyr-cli"
-  version "0.3.0"
+  version "0.3.2"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/bun913/zephyr-cli/releases/download/v#{version}/zephyr-macos-arm64"
-      sha256 "248828c2884b564a5d695c7a613374481f467941dcc022a8d0dba44335fae647"
+      sha256 "e26143e408c99944df7c584560aa9a4089148bf010a445e28d086aca3fdd538f"
     end
     on_intel do
       url "https://github.com/bun913/zephyr-cli/releases/download/v#{version}/zephyr-macos-x64"
-      sha256 "49e08aeb0a50b91d41eac715161e62b8f363cd4cdcba8739907c27a35cdd986d"
+      sha256 "5e5f7eb6be2778cf1f8baca41ba1161de06f9a259123861ac1c2a7fed06c5509"
     end
   end
 
   on_linux do
     url "https://github.com/bun913/zephyr-cli/releases/download/v#{version}/zephyr-linux-x64"
-    sha256 "563b908993c320c749ccbf698bf603b3adc0071f41fc006e9994eac21863b151"
+    sha256 "39ea913961cfbb6fdf8ce097947082e20d50318ca9d5bbcdd053d69bb251f0ea"
   end
 
   def install
