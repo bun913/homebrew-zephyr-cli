@@ -7,11 +7,11 @@ class Zephyr < Formula
   on_macos do
     on_arm do
       url "https://github.com/bun913/zephyr-cli/releases/download/v#{version}/zephyr-macos-arm64"
-      sha256 "853857fb98176cd077583f0dfdb957c527beb7ba9248d8604862bfa183a41ed3"
+      sha256 "33cf8bdf60fd6e2f57bf857db69deb92a159d7957d62fae4a7e7721880a46adf"
     end
     on_intel do
       url "https://github.com/bun913/zephyr-cli/releases/download/v#{version}/zephyr-macos-x64"
-      sha256 "33cf8bdf60fd6e2f57bf857db69deb92a159d7957d62fae4a7e7721880a46adf"
+      sha256 "853857fb98176cd077583f0dfdb957c527beb7ba9248d8604862bfa183a41ed3"
     end
   end
 
